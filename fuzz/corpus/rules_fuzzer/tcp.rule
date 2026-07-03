@@ -1,0 +1,1 @@
+drop tcp $external_net any -> 10.0.0.0/8 445 (msg:"smb block"; sid:3; rev:1;)

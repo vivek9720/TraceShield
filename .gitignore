@@ -1,0 +1,11 @@
+build/
+out/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+*.profraw
+*.profdata

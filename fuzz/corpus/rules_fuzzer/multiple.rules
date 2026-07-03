@@ -1,0 +1,2 @@
+alert tcp any any -> any 443 (msg:"tls"; sid:5; rev:1;)
+pass ip 10.0.0.0/8 any -> any any (msg:"internal"; sid:6; rev:1;)

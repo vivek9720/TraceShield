@@ -1,0 +1,1 @@
+-A INPUT -p tcp -s 999.999.1.1 --dport 70000 -j ACCEPT

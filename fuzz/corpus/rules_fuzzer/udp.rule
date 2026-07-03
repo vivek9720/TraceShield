@@ -1,0 +1,1 @@
+alert udp any any -> 192.168.0.0/16 53 (msg:"dns watch"; sid:4; rev:1;)
